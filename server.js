@@ -15,5 +15,5 @@ mongoose.connect("mongodb://student:secretpassword@kahana.mongohq.com:10066/app2
 
 app.use(express.static(__dirname + "/public")); // Automatic routing for all static files
 
-app.listen(3000); //Run the server on port 3000
-console.log("Server now running on port 3000");
+app.listen(5000); //Run the server on port 5000
+console.log("Server now running on port 5000");
