@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://student:secretpassword@kahana.mongohq.com:10066/app29905577/[enter netid]");
+mongoose.connect("mongodb://student:secretpassword@kahana.mongohq.com:10066/app29907320/[enter netid]");
 
 app.use(express.static(__dirname + "/public")); // Automatic routing for all static files
 
