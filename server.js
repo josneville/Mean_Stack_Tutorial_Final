@@ -18,5 +18,5 @@ app.use(express.static(__dirname + "/public")); // Automatic routing for all sta
 
 require('./app/routes/todo')(app);
 
-app.listen(5000); //Run the server on port 5000
+app.listen(process.env.PORT || 5000); //Run the server on port 5000
 console.log("Server now running on port 5000");
